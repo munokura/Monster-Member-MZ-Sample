@@ -3,5 +3,5 @@
 var $plugins =
 [
 {"name":"PluginCommonBase","status":true,"description":"パラメータ解析を提供する共通基盤です","parameters":{}},
-{"name":"MAT_AddPartyloser","status":true,"description":"ver1.01 戦闘終了時に敵キャラのノートタグ記載のアクターを仲間にします。","parameters":{"animation":"0","text1":"が起き上がった。","text2":"は仲間になった。","textallow":"仲間にする","textforbid":"拒否する","enableonce":"true","iscenterdisplay":"true"}}
+{"name":"MAT_AddPartyloser","status":true,"description":"ver1.03 戦闘終了時に敵キャラのノートタグ記載のアクターを仲間にします。","parameters":{"animation":"0","text1":"が起き上がった。","text2":"は仲間になった。","textallow":"仲間にする","textforbid":"拒否する","enableonce":"true","iscenterdisplay":"true","validBattletest":"true","defaultallrate":"100"}}
 ];
